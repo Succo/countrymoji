@@ -55,7 +55,7 @@ var charmap = map[rune]string{
 	'Z': "🇿",
 }
 
-var iso2to3 = map[string]string{
+var alpha3to2 = map[string]string{
 	"AFG": "AF",
 	"ALA": "AX",
 	"ALB": "AL",
