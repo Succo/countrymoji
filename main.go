@@ -29,7 +29,7 @@ var charmap = map[rune]string{
 	'z': "🇿",
 }
 
-func ToFlag(code string) string {
+func Iso2ToFlag(code string) string {
 	flg := ""
 	for _, c := range code {
 		flg += charmap[c]

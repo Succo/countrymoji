@@ -1,10 +1,9 @@
 package countrymoji
 
-import (
-	"fmt"
-	"testing"
-)
+import "testing"
 
-func TestHelloWorld(t *testing.T) {
-	fmt.Println(ToFlag("ac"))
+func TestIso2(t *testing.T) {
+	if "🇫🇷" != Iso2ToFlag("fr") {
+		t.Error("Invalid result for fr")
+	}
 }
